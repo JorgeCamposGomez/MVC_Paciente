@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="532.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="71.0" layoutY="42.0" prefHeight="17.0" prefWidth="88.0" text="Bienvenido!" />
+      <TextField fx:id="txtNombrePaciente" layoutX="186.0" layoutY="37.0" />
+      <Label layoutX="65.0" layoutY="105.0" prefHeight="17.0" prefWidth="77.0" text="Tiene usted" />
+      <TextField fx:id="txtNMensajes" layoutX="159.0" layoutY="100.0" prefHeight="27.0" prefWidth="41.0" />
+      <Label layoutX="223.0" layoutY="105.0" prefHeight="17.0" prefWidth="111.0" text="mensajes nuevos" />
+      <Button fx:id="btnEscuchar" layoutX="366.0" layoutY="100.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="88.0" text="Escuchar " />
+      <Button fx:id="btnEmergency" layoutX="54.0" layoutY="179.0" mnemonicParsing="false" prefHeight="126.0" prefWidth="139.0" text="Emergencia" />
+      <TableView fx:id="tbvRecordatorio" layoutX="242.0" layoutY="179.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn prefWidth="199.0" text="Recordatorios" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
